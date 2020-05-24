@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  height: 50%;
+  margin: auto 12px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  height: 56px;
+  background-color: #303030;
+}
+
+.hamburguesa {
+  color: white;
+  font-size: 24px;
+  margin: auto 16px;
+}
+
+.busqueda {
+  margin: auto 20%;
+  height: 50%;
+}
+
+.busqueda input {
+  border-color: gray;
+  background-color: black;
+  margin: 0;
+  border-style: solid;
+  border-width: 0.5px;
+  height: 100%;
+  width: 300px;
+}
+
+.busqueda button {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+  color: lightgray;
+  border-style: solid;
+  border-width: 0.5px;
+  height: 100%;
+  padding: 5px 16px;
+}
