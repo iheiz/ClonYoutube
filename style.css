@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+p,span{font-family:Roboto;
+    
+}
+
 .logo {
   height: 50%;
   margin: auto 12px;
@@ -45,4 +49,60 @@ body {
   border-width: 0.5px;
   height: 100%;
   padding: 5px 16px;
+}
+
+.video{
+    margin-left: 250px;
+    margin-top: 12px;
+    
+    
+}
+
+.videoyoutube{
+    width: 853px;
+    height: 480px;
+   
+   }
+
+.textovisitas
+{  color: rgb(144,144,144);
+   font-size: 0.8em;
+      display:inline;
+    
+}
+.manita{
+   font-size:20px;
+   color: rgb(144,144,144);
+   margin-left: 255px;
+   display:inline;
+    
+    
+   } 
+
+.manita-abajo{
+    
+    font-size:20px;
+      margin-left: 10px;
+    color: rgb(144,144,144);
+     display:inline; 
+}
+
+.manita-numero{
+    font-size: 0.8em;
+    color: rgb(144,144,144);
+
+}
+
+
+.inline{
+display:inline;
+}
+    
+
+
+.centralvertical{
+    
+    display:flex;
+    flex-direction:row;
+    align-items: center;
 }
